@@ -1,9 +1,9 @@
 # Template of the cask published to the tap beatsfaty/homebrew-macpurifier (Casks/macpurifier.rb).
 # release-app.yml rewrites `version` and `sha256` at every release; never edit them by hand.
-# 1.0.0 was set by hand: published from a local build on 2026-11-21 (release runbook, part D).
+# 1.0.0 and 1.1.0 were set by hand: published from local builds on 2026-11-21 (release runbook, part D).
 cask "macpurifier" do
-  version "1.0.0"
-  sha256 "54a573333fffc39c98f7bc5cb9b1eaa98c0eaf8320685d73ecee5230f51172a8"
+  version "1.1.0"
+  sha256 "1b9e96dbdc8458c4fd3389c4bd0ec275de966f30b567db743add122ca8ffebc0"
 
   url "https://github.com/beatsfaty/macpurifier-releases/releases/download/v#{version}/MacPurifier-#{version}.zip"
   name "MacPurifier"
